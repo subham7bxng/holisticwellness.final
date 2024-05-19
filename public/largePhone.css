@@ -180,7 +180,7 @@
         width: 300px;
         transform: translate(-50%, -50%);
         animation: rotate 70s linear infinite;
-        opacity: calc(35%);
+        opacity: calc(20%);
     }
 
     .img-a1 {
@@ -195,7 +195,7 @@
         width: 350px;
         transform: translate(-50%, -50%);
         animation: rotate-bk 70s linear infinite;
-        opacity: calc(25%);
+        opacity: calc(20%);
     }
 
     .branches {
@@ -208,7 +208,7 @@
         height: 250px;
         width: 300px;
         z-index: -50;
-        opacity: calc(70%);
+        opacity: calc(50%);
     }
 
     .image-container {
@@ -285,7 +285,7 @@
         width: 400px;
         transform: translate(-50%, 5%);
         animation: rotate 120s linear infinite;
-        opacity: calc(20%);
+        opacity: calc(10%);
     }
 
     @keyframes rotate {
@@ -318,6 +318,7 @@
         text-decoration: none;
         color: #fff;
     }
+
 
     .card-title {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -448,6 +449,14 @@
         font-weight: 600;
         padding: 0 20px;
         font-family: 'Times New Roman', Times, serif;
+    }
+
+    .card-para {
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 15px;
     }
 
     .num {
